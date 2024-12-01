@@ -1,0 +1,33 @@
+/* 
+Exemplo de código MiniJava 
+para testar o lexer 
+*/
+
+int x = 10; // Declaração de variável
+while (x != 0) { // Loop while
+    x = x - 1;  // Decremento de x
+}
+
+if (x == 0) { // Condição if
+    return;  // Retorna
+} else {
+    for (int i = 0; i < 5; i++) { // Laço for
+        // Caso de um switch
+        switch (x) {
+            case 1:
+                x = x + 1;
+                break;
+            case 2:
+                x = x * 2;
+                break;
+            default:
+                x = x / 2;
+        }
+    }
+}
+
+boolean flag = true; // Variável booleana
+char c = 'a'; // Variável char
+double d = 10.5; // Variável double
+float f = 20.5f; // Variável float
+long l = 100000L; // Variável long
